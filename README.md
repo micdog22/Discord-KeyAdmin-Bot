@@ -34,12 +34,12 @@ Bot de Discord integrado ao seu backend KeyAdmin. Inclui slash commands, logs co
 
 ## Comandos
 Os comandos ficam no grupo `/ka`:
-- `/ka status key:<texto>` — Consulta status da key
-- `/ka gerar validade:<dia|semana|mes|vitalicia> qtd:<int> [prefixo] [sufixo] [tamanho]` — Gera novas chaves
-- `/ka ban key:<texto> [motivo]` — Bane a key
-- `/ka unban key:<texto>` — Desbane a key
-- `/ka reset_hwid key:<texto>` — Reseta HWID
-- `/ka deletar key:<texto>` — Exclui a key
+- `/ka status key:<texto>`: consulta status da key
+- `/ka gerar validade:<dia|semana|mes|vitalicia> qtd:<int> [prefixo] [sufixo] [tamanho]`: gera novas chaves
+- `/ka ban key:<texto> [motivo]`: bane a key
+- `/ka unban key:<texto>`: desbane a key
+- `/ka reset_hwid key:<texto>`: reseta HWID
+- `/ka deletar key:<texto>`: exclui a key
 
 Por padrão, somente administradores do servidor podem usar. Você pode liberar usuários específicos editando a verificação em `utils/checks.py`.
 
